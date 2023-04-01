@@ -3,7 +3,6 @@ import Application from '@ioc:Adonis/Core/Application'
 import { v4 as uuidv4 } from 'uuid'
 import Moment from "App/Models/Moment";
 
-
 export default class MomentsController {
   private  validationOtions = {
     types: ["image"],
